@@ -54,7 +54,7 @@ const MyLine = () => {
            <Line dataKey={'Sales'} stroke="#FFF" ></Line>
            <Line dataKey={'profit'} stroke={'green'}></Line>
            <Tooltip></Tooltip>
-           <XAxis dataKey={'name'}></XAxis>
+           <XAxis dataKey={'name'}></XAxis> 
            <YAxis></YAxis>
        </LineChart>
     );
